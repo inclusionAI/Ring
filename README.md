@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Ring is a reasoning MoE LLM provided and open-sourced by InclusionAI, derived from [Ling](https://github.com/inclusionAI/Ling). We introduce two different sizes, which are Ring-Lite and Ring-Plus. Ring-Lite has 16.8 billion parameters with 2.75 billion activated parameters, while Ring-Plus has 290 billion parameters with 28.8 billion activated parameters. Both models demonstrate impressive reasoning performance compared to existing models in the industry.
+Ring is a reasoning MoE LLM provided and open-sourced by InclusionAI, derived from [Ling](https://github.com/inclusionAI/Ling). We introduce Ring-lite-distill, which has 16.8 billion parameters with 2.75 billion activated parameters. This model demonstrates impressive reasoning performance compared to existing models in the industry.
 
 
 ## Model Downloads
