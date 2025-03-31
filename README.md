@@ -70,10 +70,10 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 If you're in mainland China, we strongly recommend you to use our model from 🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope</a>.
 
 ## Deployment
-Refer to [Ling](https://github.com/inclusionAI/Ling)
+Please refer to [Ling](https://github.com/inclusionAI/Ling)
 
 ## Finetuning
-Refer to [Ling](https://github.com/inclusionAI/Ling)
+Please refer to [Ling](https://github.com/inclusionAI/Ling)
 
 
 ## License
