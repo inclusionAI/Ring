@@ -20,7 +20,7 @@ You can download the following table to see the various parameters for your use 
 
 |      **Model**       | **#Total Params** | **#Activated Params** | **Context Length** |                                                                        **Download**                                                                        |
 | :------------------: | :---------------: | :-------------------: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    Ring-lite-distill    |       16.8B       |         2.75B         |        32K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill)     |
+|    Ring-lite-distill    |       16.8B       |         2.75B         |        64K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill)     |
 
 </div>
 
