@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Ring is a reasoning MoE LLM provided and open-sourced by InclusionAI, derived from [Ling](https://github.com/inclusionAI/Ling). We introduce Ring-lite-distill, which has 16.8 billion parameters with 2.75 billion activated parameters. This model demonstrates impressive reasoning performance compared to existing models in the industry.
+Ring is a reasoning MoE LLM provided and open-sourced by InclusionAI, derived from [Ling](https://github.com/inclusionAI/Ling). We introduce Ring-lite-distill-preview, which has 16.8 billion parameters with 2.75 billion activated parameters. This model demonstrates impressive reasoning performance compared to existing models in the industry.
 
 
 ## Model Downloads
@@ -20,7 +20,7 @@ You can download the following table to see the various parameters for your use 
 
 |      **Model**       | **#Total Params** | **#Activated Params** | **Context Length** |                                                                        **Download**                                                                        |
 | :------------------: | :---------------: | :-------------------: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    Ring-lite-distill    |       16.8B       |         2.75B         |        64K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill)     |
+|    Ring-lite-distill-preview    |       16.8B       |         2.75B         |        64K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill-preview) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill-preview)     |
 
 </div>
 
@@ -33,7 +33,7 @@ Here is a code snippet to show you how to use the chat model with `transformers`
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "inclusionAI/Ring-lite-distill"
+model_name = "inclusionAI/Ring-lite-distill-preview"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
