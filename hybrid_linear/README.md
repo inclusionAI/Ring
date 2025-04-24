@@ -1,4 +1,4 @@
-# Ring
+# Ring-Linear
 
 <p align="center">
     <img src="../figures/ant-bailing.png" width="100"/>
