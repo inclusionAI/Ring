@@ -7,6 +7,9 @@
 <p align="center">
           🤗 <a href="https://huggingface.co/inclusionAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope</a>
 
+## News
+* [2025-04]:🎉 Add [Ring-lite-linear-preview](hybrid_linear) Model
+
 ## Introduction
 
 Ring is a reasoning MoE LLM provided and open-sourced by InclusionAI, derived from [Ling](https://github.com/inclusionAI/Ling). We introduce Ring-lite-distill-preview, which has 16.8 billion parameters with 2.75 billion activated parameters. This model demonstrates impressive reasoning performance compared to existing models in the industry.
