@@ -97,7 +97,7 @@ sampling_params = SamplingParams(temperature=0.7, top_p=0.8, repetition_penalty=
 llm = LLM(model="inclusionAI/Ring-lite-linear-preview", dtype='bfloat16')
 prompt = "Give me a short introduction to large language models."
 messages = [
-    {"role": "system", "content": "You are Ling, an assistant created by inclusionAI"},
+    {"role": "system", "content": "You are Ring, an assistant created by inclusionAI"},
     {"role": "user", "content": prompt}
 ]
 
