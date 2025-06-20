@@ -8,8 +8,8 @@
           🤗 <a href="https://huggingface.co/inclusionAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope</a>
 
 ## News
-* [2025-04]:🎉 Add [Ring-lite-linear-preview](hybrid_linear) Model
 * [2025-06]:🎉 Add [Ring-lite](https://huggingface.co/inclusionAI/Ring-lite) Model
+* [2025-04]:🎉 Add [Ring-lite-linear-preview](hybrid_linear) Model
 
 ## Introduction
 
@@ -38,7 +38,7 @@ Here is a code snippet to show you how to use the chat model with `transformers`
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "inclusionAI/Ring-lite-distill-preview"
+model_name = "inclusionAI/Ring-lite"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
