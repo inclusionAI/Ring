@@ -9,6 +9,7 @@
 
 ## News
 * [2025-04]:🎉 Add [Ring-lite-linear-preview](hybrid_linear) Model
+* [2025-06]:🎉 Add [Ring-lite](https://huggingface.co/inclusionAI/Ring-lite) Model
 
 ## Introduction
 
@@ -24,6 +25,7 @@ You can download the following table to see the various parameters for your use 
 |      **Model**       | **#Total Params** | **#Activated Params** | **Context Length** |                                                                        **Download**                                                                        |
 | :------------------: | :---------------: | :-------------------: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |    Ring-lite-distill-preview    |       16.8B       |         2.75B         |        64K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill-preview) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill-preview)     |
+|    Ring-lite    |       16.8B       |         2.75B         |        128K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite)     |
 
 </div>
 
