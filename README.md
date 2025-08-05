@@ -32,6 +32,9 @@ You can download the following table to see the various parameters for your use 
 
 </div>
 
+## Blog
+[https://inclusionai.github.io/blog/ring-lite-2507/](https://inclusionai.github.io/blog/ring-lite-2507/)
+
 ## Quickstart
 
 ### 🤗 Hugging Face Transformers
