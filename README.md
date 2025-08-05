@@ -8,6 +8,7 @@
           🤗 <a href="https://huggingface.co/inclusionAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope</a>
 
 ## News
+* [2025-07]:🎉 Add [Ring-lite-2507](https://huggingface.co/inclusionAI/Ring-lite-2507) Model
 * [2025-06]:🎉 Add [Ring-lite](https://huggingface.co/inclusionAI/Ring-lite) Model
 * [2025-04]:🎉 Add [Ring-lite-linear-preview](hybrid_linear) Model
 
@@ -24,8 +25,10 @@ You can download the following table to see the various parameters for your use 
 
 |      **Model**       | **#Total Params** | **#Activated Params** | **Context Length** |                                                                        **Download**                                                                        |
 | :------------------: | :---------------: | :-------------------: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    Ring-lite-distill-preview    |       16.8B       |         2.75B         |        64K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill-preview) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill-preview)     |
+|    Ring-lite-2507    |       16.8B       |         2.75B         |        128K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-2507) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-2507)     |
 |    Ring-lite    |       16.8B       |         2.75B         |        128K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite)     |
+|    Ring-lite-distill-preview    |       16.8B       |         2.75B         |        64K         |     [🤗 HuggingFace](https://huggingface.co/inclusionAI/Ring-lite-distill-preview) <br>[🤖 ModelScope](https://modelscope.cn/models/inclusionAI/Ring-lite-distill-preview)     |
+
 
 </div>
 
@@ -43,7 +46,8 @@ model_name = "inclusionAI/Ring-lite"
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     torch_dtype="auto",
-    device_map="auto"
+    device_map="auto",
+    trust_remote_code=True,
 )
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -87,4 +91,14 @@ This code repository is licensed under [the MIT License](https://github.com/incl
 
 ## Citation
 
-[TBD]
+```
+@misc{ringteam2025ringlitescalablereasoningc3postabilized,
+      title={Ring-lite: Scalable Reasoning via C3PO-Stabilized Reinforcement Learning for LLMs}, 
+      author={Ling Team},
+      year={2025},
+      eprint={2506.14731},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.14731}, 
+}
+```
